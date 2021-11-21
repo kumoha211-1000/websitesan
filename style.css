@@ -1,0 +1,92 @@
+header{
+  background-color:#0088a2;
+  height: 500px;
+  background-image:url(koki104.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.topNav{
+  margin-top: 200px;
+  height: 100px;
+  text-align: center;
+}
+.topNav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 600;
+  padding: 50px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+.topNav ul a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #939393;
+  padding: 10px 15px;
+  border: black 1px solid;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px 5px 10px 10px;
+  box-shadow: 25px 20px 10px rgba(0,0,0,1);
+
+}
+.topNav ul a:hover{
+  color: #ffffff;
+  background-color: #0088a2;
+}
+h1 {
+  color:#ffffff;
+  font-size:30;
+  text-align:center;
+  padding-top:110px;
+  padding-right:0px;
+}
+body {
+  background-color: #f2e3d5;
+}
+body h2 {
+  text-align: center;
+}
+body p {
+  text-align: center;
+}
+article {
+  width: 960px;
+  margin: 50px auto;
+}
+section h3 {
+  text-align: center;
+  margin: 32px;
+  font-size: 28px
+}
+section h4 {
+  text-align: center;
+}
+header {
+  color:#ffffff;
+} .section1 {
+  color: #0088a2;
+} .section2 {
+  color: #0088a2;
+} .section3 {
+  color: #0088a2;
+} .section4{
+  color: #0088a2;
+} .section5{
+  color: #939393;
+} .section6{
+  color: #939393;
+} .section7{
+  color: #cda966;
+} .section8{
+  color: #b11d2c;
+}
+  footer {
+  padding: 30px;
+  background-color: #0088a2;
+  text-align: center;
+}
+*{
+  margin: 0;
+}
